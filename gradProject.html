@@ -81,10 +81,14 @@
             <div id="tab2" class="tabcontent">
 
                 <Header>
-                    <h3 href="smartssd.html">Accelerated Neural Network Image Inference with Samsung SmartSSD</h3>
+                    <a href="smartssd.html">Accelerated Neural Network Image Inference with Samsung SmartSSD</a>
                 </Header>
 
                 <General>
+
+                    <img class=picture_centered src="./img/smartssd/speedup.png" width="80%" height="80%">
+
+                    SmartSSD is a Computational Storage Device that includes a 4TB Samsung NAND SSD device and a Xilinx Kintex Ultrascale FPGA in one package. This device can act as a normal storage device to the host, directly interfacing between the host and FPGA like a normal accelerator, or between the SSD device and FPGA to utilize low latency memory transactions by using a PCIe switch within the SmartSSD device. As part of a semester long project for a graduate course at Iowa State University, CPRE 563, me and a partner developed an accelerator design for SmartSSD which would be targeted towards neural network image inferencing. The goal was to utilize the high bandwidth, low latency memory transactions directly between the SSD and FPGA devices, while synthesizing an accelerated FPGA kernel by utilizing Vitis HLS with C++ code for a multiply and accumulate function, which could be used to generate convolution points for a neural network inference.  <br><br>
     
                     <h4>Deliverables</h4>
                     <ul>
