@@ -44,16 +44,42 @@
 
         <div class="contentNav">
             <ul>
-                <li class="tablinks" onclick="openTab(event, 'tab1')"><a>Branch Predictors</a></li>
-                <li class="tablinks" onclick="openTab(event, 'tab2')"><a>SmartSSD</a></li>
-                <li class="tablinks" onclick="openTab(event, 'tab3')"><a>FPGA Task Scheduler</a></li>
-                <li class="tablinks" onclick="openTab(event, 'tab4')"><a>2D Image Steganography</a></li>
-                <li class="tablinks" onclick="openTab(event, 'tab5')"><a>OpenFPGA</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab1')"><a>Masters Research</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab2')"><a>Branch Predictors</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab3')"><a>SmartSSD</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab4')"><a>Machine Learning</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab5')"><a>FPGA Task Scheduler</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab6')"><a>2D Image Steganography</a></li>
+                <li class="tablinks" onclick="openTab(event, 'tab7')"><a>OpenFPGA</a></li>
             </ul>
         </div>
 
         <div class="contentBlock">
+
             <div id="tab1" class="tabcontent">
+
+                <Header>
+                    <h3>Graduate Research</h3>
+                </Header>
+
+                <General>
+
+                <img class=picture_centered src="./img/research/chips.JPG" width="80%" height="80%">
+
+                Ending in Fall 2024, I completed my Creative Component graduate research with Dr. Henry Duwe at Iowa State University, partnered with Gregory Ling. As part of my work, I had the opportunity to continue working on open-source ASIC design, utilizing the same open-source process supported by eFabless on the SkyWater 130nm technology. As part of my work, I helped document the digital and analog ASIC design flows required by eFabless to generate tapeout ready submissions. Additionally, I provided tutorials and guides on how to step through simple design for both design flows. In terms of deliverables, I was expected to submit an approved research paper to Iowa State University’s digital library, as well as a 45-minute oral exam to my major professor, Dr. Duwe. Attached are both the presentation and paper that I submitted for my final deliverables. By the end of our research, we were able to successfully establish Iowa State’s first ASIC design club, ChipForge, and provide them with all the necessary tools to create a tapeout ready design.  <br><br>                    
+                
+                <h4>Deliverables</h4>
+                <ul>
+                    <li><a href="pdf/research/paper.pdf">Creative Component Paper</a></li>
+                    <li><a href="pdf/research/presentation.pdf">Research Oral Exam</a></li>
+                </ul>
+
+                </General>
+
+            </div>
+
+
+            <div id="tab2" class="tabcontent">
 
                 <Header>
                     <a href="chipyard.html">Synthesized Open-Source Branch Predictor Analysis (Click here for more info)</a>
@@ -78,7 +104,7 @@
 
             </div>
 
-            <div id="tab2" class="tabcontent">
+            <div id="tab3" class="tabcontent">
 
                 <Header>
                     <a href="smartssd.html">Accelerated Neural Network Image Inference with Samsung SmartSSD</a>
@@ -99,8 +125,29 @@
 
             </div>
 
+            <div id="tab4" class="tabcontent">
 
-            <div id="tab3" class="tabcontent">
+                <Header>
+                    <h3>Machine Learning</h3>
+                </Header>
+
+                <General>
+
+                <img class=picture_centered src="./img/MAC/GDS.png" width="80%" height="80%">
+
+                In Fall 2024, I took my last class at Iowa State University as apart of my Computer Engineering graduate degree. The course was focused on hardware applications of machine learning systems, and throughout 6 different labs a partner and myself integrated a image inference convolutional neural network in python, C++, and in Verilog utilizing a Xilinx FPGA and Digilent ZedBoard. As part of our final project, we created a multiply accumulate module that was synthesized and constrained with the same open-source digital ASIC design process I utilized for senior design and graduate resource. This enabled us to create a design for a future ASIC tapeout that my partner can verify in person in the Spring 2025 semester. As part of the design process, we defined our design, created an automated suite of tests, and helped integrate the design into the final tapeout submission. The included image on this page is the GDSII layout of our design cell in the open source SkyWater 130nm process. <br><br>
+                
+                <h4>Deliverables</h4>
+                <ul>
+                    <li><a href="pdf/MAC/report.pdf">Final Project Report</a></li>
+                </ul>
+
+                </General>
+
+            </div>
+
+
+            <div id="tab5" class="tabcontent">
 
                 <Header>
                     <h3>FPGA Task Scheduler</h3>
@@ -130,7 +177,7 @@
 
             </div>
 
-            <div id="tab4" class="tabcontent">
+            <div id="tab6" class="tabcontent">
 
                 <Header>
                     <h3>Least Significant Bit Steganography for 2D Image Applications</h3>
@@ -166,7 +213,7 @@
             </div>
 
 
-            <div id="tab5" class="tabcontent">
+            <div id="tab7" class="tabcontent">
 
                 <Header>
                     <h3>OpenFPGA Research</h3>
